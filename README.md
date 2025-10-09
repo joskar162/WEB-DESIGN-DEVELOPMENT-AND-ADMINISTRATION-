@@ -4,31 +4,38 @@ This repository contains small example files that demonstrate basic HTML concept
 
 ## Files in this folder
 
-- `html_basics.html` — A readable demo page showing semantic structure, headings, paragraphs, lists, links, images, tables, a small form, and a tiny JavaScript snippet (dark mode toggle and form handling).
-- `start.txt` — A plain text version of a simple example used in the Notepad exercise.
-- `start.html` — A minimal HTML file created from `start.txt` that demonstrates using `<B>` and `<I>` tags (bold and italic).
+- `format.html` — Demonstrates text formatting with paragraphs (`<p>`), line breaks (`<br>`), preformatted text (`<pre>`), headings (`<h1>`, `<h2>`), lists (unordered `<ul>`, ordered `<ol>`, definition `<dl>`), horizontal rules (`<hr>`), and HTML comments.
+- `index.html` — Homepage of a multi-page site with links to other pages and sections within documents using anchors (`<a name>` and `<a href="#section">`).
+- `filetwo.html` — Second page with sections for linking, demonstrating internal and external page links.
+- `filethree.html` — Third linked page.
+- `filefour.html` — Fourth linked page.
+- `start.html` — Basic HTML document structure with bold (`<b>`) and italic (`<i>`) text.
+- `start.txt` — Plain text file for comparison and editing exercises.
+- `README.md` — This documentation file.
 
 ## What this demonstrates
 
 The examples cover:
 
 - Document structure: `<!doctype html>`, `<html>`, `<head>`, `<body>` and semantic elements like `<header>`, `<main>`, `<article>`, `<aside>`, and `<footer>`.
-- Text formatting: headings (`<h1>`–`<h6>`), paragraphs (`<p>`), bold (`<B>` / recommended `<strong>`), and italics (`<I>` / recommended `<em>`).
-- Lists: unordered (`<ul>`) and ordered (`<ol>`).
-- Links (`<a>`), images (`<img>`), and figures (`<figure>` / `<figcaption>`).
-- Tables (`<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`).
+- Text formatting: headings (`<h1>`–`<h6>`), paragraphs (`<p>`), bold (`<B>` / recommended `<strong>`), and italics (`<I>` / recommended `<em>`), preformatted text (`<pre>`), horizontal rules (`<hr>`).
+- Lists: unordered (`<ul>`), ordered (`<ol>`), and definition (`<dl>`, `<dt>`, `<dd>`).
+- Links (`<a>`), including to sections within a page (`<a href="#section">`) and between pages (`<a href="page.html#section">`), with anchors (`<a name="section">`).
+- Images (`<img>`), figures (`<figure>` / `<figcaption>`), tables (`<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`).
 - Forms with labels and inputs (accessible pairing of `<label>` and `<input>`).
+- HTML comments (`<!-- -->`).
 - A small inline SVG example (used as a data URL image) and a tiny JavaScript example that updates the UI.
 
 ## How to open the files
 
-- Double-click `html_basics.html` or `start.html` in File Explorer to open them in your default browser.
+- Double-click any `.html` file (e.g., `format.html`, `index.html`, `start.html`) in File Explorer to open them in your default browser.
 - From PowerShell you can run:
 
 ```powershell
-Start-Process .\html_basics.html
+Start-Process .\format.html
 # or
-Start-Process .\start.html
+Start-Process .\index.html
+# etc.
 ```
 
 - To edit in Notepad: right-click the file and choose "Open with > Notepad" (or open Notepad first and select File → Open).
