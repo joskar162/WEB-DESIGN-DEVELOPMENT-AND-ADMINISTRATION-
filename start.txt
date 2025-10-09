@@ -1,0 +1,4 @@
+Welcome to the HTML basics exercise.
+Internet Commerce
+
+This plain text file demonstrates creating a simple HTML document from Notepad. Follow the steps: open in Notepad, add HTML tags, save as start.html, then open in a browser.
