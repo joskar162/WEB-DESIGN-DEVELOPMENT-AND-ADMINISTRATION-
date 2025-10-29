@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Study Timetable</title>
+    <style>
+        /* Basic CSS for better table visibility and resemblance to the image */
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2; /* Light background for headers */
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>My Own Timetable</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2"></th>
+                <th colspan="3">Morning</th>
+                <th rowspan="2">Lunch</th>
+                <th colspan="3">Afternoon</th>
+                <th colspan="2">Evening</th>
+            </tr>
+            <tr>
+                <th>9. am</th>
+                <th>10. am</th>
+                <th>11. am</th>
+                <th>2. pm</th>
+                <th>3. pm</th>
+                <th>4. pm</th>
+                <th>6. pm</th>
+                <th>7. pm</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3">Work</th>
+                <th>Monday</th>
+                <td colspan="2">Development Meeting</td>
+                <td></td>
+                <td rowspan="5">1-2 pm</td>
+                <td colspan="2">Client Meeting</td>
+                <td>commute</td>
+                <td colspan="2">Free</td>
+            </tr>
+
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">In Office</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="2">In Office preparation</td>
+            </tr>
+
+            <tr>
+                <th>Wednesday</th>
+                <td>CSC205</td>
+                <td colspan="2"></td>
+                <td colspan="3"></td>
+                <td colspan="2"></td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Lecture</th>
+                <th>Thursday</th>
+                <td colspan="2">MAM200</td>
+                <td></td>
+                <td colspan="3">Tutorials for MAM200</td>
+                <td colspan="2">Free</td>
+            </tr>
+
+            <tr>
+                <th>Friday</th>
+                <td colspan="3">Research</td>
+                <td colspan="3"></td>
+                <td colspan="2">Research</td>
+            </tr>
+        </tbody>
+
+        </table>
+
+</body>
+</html>
