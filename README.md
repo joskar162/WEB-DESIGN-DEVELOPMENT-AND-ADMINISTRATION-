@@ -12,7 +12,6 @@ Welcome to this engaging collection of small example files designed to introduce
 - **`filethree.html`** — The third linked page in the series.
 - **`filefour.html`** — The fourth linked page completing the set.
 - **`start.html`** — A simple HTML document showcasing bold (`<b>`) and italic (`<i>`) text formatting.
-- **`start.txt`** — A plain text file for comparison and editing exercises.
 - **`README.md`** — This friendly guide you're reading now!
 
 ---
