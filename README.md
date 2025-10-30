@@ -1,55 +1,58 @@
-# 🌟 HTML Basics Demo 🌟
+## WEB-DESIGN-DEVELOPMENT-AND-ADMINISTRATION-
 
-Welcome to this engaging collection of small example files designed to introduce you to the fundamentals of HTML! Whether you're a beginner or brushing up your skills, these self-contained files are perfect for opening in any modern browser or editing in a simple text editor like Notepad.
+This repository contains a small set of instructional HTML files used for learning basic
+HTML structure, anchors, hyperlinks and simple formatting. The files live in the `HTML BASICS/` and 'HTML TABLES/' folder.
+
+This README was created after reviewing the files (no source files were modified while preparing this README).
+
+## What I looked at
+
+- `HTML BASICS/index.html` — Main page. Contains headings, paragraphs, internal section anchors named
+	`section_two` and `section_three`, and top-of-page links to those anchors. Also contains external link(s).
+- `HTML BASICS/filetwo.html` — A second page. Contains internal anchors `section_two` and `section_three` so
+	cross-file links like `filetwo.html#section_two` and `filetwo.html#section_three` can jump to those sections.
+- `HTML BASICS/filethree.html` — Another simple page with navigation links back to `index.html` and others.
+- `HTML BASICS/filefour.html` — Simple page with basic links (similar to `filethree.html`).
+- `HTML BASICS/format.html` — Demonstrates text formatting, lists (ordered/unordered), `<pre>`, `<hr>`, and definition lists.
+- `HTML BASICS/start.html` — A minimal first-page example with a simple personal intro.
+
+Note: the HTML files are basic teaching examples. There are a few inconsistencies in markup (closing tags and casing), which is normal in beginner exercises. I did not change any of the HTML while writing this README.
+
+## File list (one-line purpose)
+
+- `HTML BASICS/index.html` — Main example page: content, internal anchors, and top navigation links.
+- `HTML BASICS/filetwo.html` — Page with matching anchors to demonstrate linking from `index.html`.
+- `HTML BASICS/filethree.html` — Additional page with navigation back to `index.html`.
+- `HTML BASICS/filefour.html` — Extra example page with navigation links.
+- `HTML BASICS/format.html` — Formatting examples: paragraphs, breaks, lists, and preformatted text.
+- `HTML BASICS/start.html` — A tiny personal intro page used as a starting example.
+
+## How to test locally (quick steps)
+
+1. Open your file manager and navigate to the project folder, then into `HTML BASICS`.
+2. Double-click `index.html` (or right-click -> Open with -> your web browser). The browser will load the page using a `file://` URL.
+3. At the top of the page you should see links:
+	 - "Section Two" — jumps to the `section_two` anchor inside `index.html`.
+	 - "Section Three" — jumps to the `section_three` anchor inside `index.html`.
+	 - "File Two: Section Two" — opens `filetwo.html` and jumps to its `section_two` anchor.
+	 - "File Two: Section Three" — opens `filetwo.html` and jumps to its `section_three` anchor.
+4. Click each link and confirm the browser moves to the correct section (internal jumps) or opens the other file and scrolls to the named anchor (cross-file jumps).
+
+Tips: If a cross-file anchor doesn't work, make sure both files are in the same directory and that the anchor names match exactly (case sensitive in some setups). Also ensure the browser is loading the local file from the correct folder.
+
+## Notes & observations
+
+- The HTML files use legacy attributes (for example `BGCOLOR`, `TEXT`, `LINK`, `VLINK`, `ALINK`) on the `<BODY>` tag. These still work in browsers but are deprecated in modern HTML; CSS is the recommended approach for styling.
+- Some pages include extra or inconsistent tags and casing (for example `HTML` / `HEAD` casing, duplicate `BODY` tags in one file). These are common in beginner exercises but browsers are generally tolerant. If you want, I can clean and modernize the markup (convert inline attributes to CSS, fix tag nesting), but I did not change any code.
+
+## Next steps I can help with
+
+- Clean up and modernize the HTML (semantic tags, proper closing tags, convert color attributes to CSS).
+- Add a simple local development instruction (e.g., run a tiny static server with Python: `python -m http.server`) if you want to test relative links under `http://localhost`.
+- Fix any broken links or incorrect anchor names if you point them out.
+
+If you'd like, I can now (A) keep the files untouched and just commit this README, or (B) propose and implement code cleanups as a follow-up PR — tell me which you prefer.
 
 ---
-
-## 📁 Files in this folder
-
-- **`format.html`** — Explore text formatting with paragraphs (`<p>`), line breaks (`<br>`), preformatted text (`<pre>`), headings (`<h1>`, `<h2>`), various lists (unordered `<ul>`, ordered `<ol>`, definition `<dl>`), horizontal rules (`<hr>`), and HTML comments.
-- **`index.html`** — The homepage of a multi-page site featuring links to other pages and internal sections using anchors (`<a name>` and `<a href="#section">`).
-- **`filetwo.html`** — The second page with internal sections and links demonstrating navigation within and between pages.
-- **`filethree.html`** — The third linked page in the series.
-- **`filefour.html`** — The fourth linked page completing the set.
-- **`start.html`** — A simple HTML document showcasing bold (`<b>`) and italic (`<i>`) text formatting.
-- **`README.md`** — This friendly guide you're reading now!
-
----
-
-## 🎯 What you'll learn
-
-These examples cover essential HTML concepts including:
-
-- **Document structure:** Proper use of `<!doctype html>`, `<html>`, `<head>`, `<body>`, and semantic elements like `<header>`, `<main>`, `<article>`, `<aside>`, and `<footer>`.
-- **Text formatting:** Headings (`<h1>`–`<h6>`), paragraphs (`<p>`), bold (`<B>` / recommended `<strong>`), italics (`<I>` / recommended `<em>`), preformatted text (`<pre>`), and horizontal rules (`<hr>`).
-- **Lists:** Unordered (`<ul>`), ordered (`<ol>`), and definition lists (`<dl>`, `<dt>`, `<dd>`).
-- **Links:** Internal page anchors (`<a href="#section">`), inter-page links (`<a href="page.html#section">`), and external links.
-- **Media:** Images (`<img>`), figures (`<figure>` / `<figcaption>`).
-- **Tables:** Structured data with `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, and `<td>`.
-- **Forms:** Accessible form controls with `<label>` and `<input>`.
-- **HTML comments:** How to add notes in your code (`<!-- -->`).
-- **Interactive elements:** A small inline SVG and a tiny JavaScript snippet that updates the UI.
-
----
-
-## 🚀 Getting started
-
-- **Open files:** Double-click any `.html` file (e.g., `format.html`, `index.html`, `start.html`) in your file explorer to launch it in your default web browser.
-- **Command line:** Use PowerShell commands like:
-
-```powershell
-Start-Process .\format.html
-# or
-Start-Process .\index.html
-```
-
-- **Editing:** Right-click any file and select "Open with > Notepad" or open Notepad first and use File → Open to edit.
-
----
-
-## 💡 Tips for success
-
-- The `start.html` file uses uppercase tags `<B>` and `<I>` to match the Notepad exercise style. For modern HTML, prefer lowercase semantic tags like `<strong>` and `<em>` for better accessibility and meaning.
-- After editing, save your changes and refresh your browser to see updates.
-- Use browser developer tools (F12) to inspect elements, debug, and experiment with styles.
+Generated: (review of files performed). If you want me to commit this README to the repository or to adjust the wording, say "Please write README" or give edits.
 
